@@ -1,0 +1,12 @@
+        <div class="row" ng-repeat="item in items">
+            <div class="shop-item">
+                <a href="{{ item.productname_link }}">
+                    <img class="img-responsive center-block" ng-src="{{ item.homeproduct_image }}" alt="">
+                
+                <h3>
+                    {{ item['productname_link/_text']}}
+                </h3>
+                <p>{{ item['price_1/_source'] }}</p>
+                </a>
+            </div>
+        </div>

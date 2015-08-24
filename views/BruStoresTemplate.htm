@@ -1,0 +1,12 @@
+        <div class="row" ng-repeat="item in items">
+            <div class="shop-item">
+                <a href="{{ item.link }}">
+                    <img class="img-responsive center-block" ng-src="{{ item.thumb_image }}" alt="">
+                
+                <h3>
+                    {{ item.name_value }}
+                </h3>
+                <p>{{ item.pricetext_value }}</p>
+                </a>
+            </div>
+        </div>
